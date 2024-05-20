@@ -73,7 +73,7 @@ function ToDoApp() {
         <section> 
 
             <div className="add-item"> 
-                <input type="text" placeholder='ADD FRUITS' name='additem' onChange={getInput} /> 
+                <input type="text" placeholder='ADD TASK' name='additem' onChange={getInput} /> 
                 <button id='add' onClick={addfruit}>Add</button> 
             </div> 
 
